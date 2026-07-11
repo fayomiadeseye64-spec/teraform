@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Terraform plans
+*.tfplan
+
+# Variable files
+*.tfvars
+*.tfvars.json
+
+# AWS CLI installation files
+aws/
+awscliv2.zip
+terraform_*.zip
+LICENSE.txt
+
+# OS files
+.DS_Store
